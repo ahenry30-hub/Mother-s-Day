@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: hotpink;
+    color: black;
+    padding: 20px;
+    line-height: 1.6;
+}
+.header4{
+    width: 60%;
+    margin: 15px auto;
+    border: 5px solid hotpink;
+    
+}
+.home-container{
+    text-align: right;
+    margin-left: 20px;
+}
+
+.main-link{
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+    border: dashed;
+}
+
+.main-link:hover{
+    text-decoration: underline;
+}
+.title{
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 45px;
+    color: gold;
+}
+.title2{
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 45px;
+    color: gold;
+}
+.coupons{
+    display: grid;
+    border-radius: 20px;
+    grid-template-columns: repeat(3,1fr); 
+    gap: 20px;
+    padding: 0 10%  50px 10%;
+
+}
+.box{
+background: paleturquoise;
+border-radius: 20px;
+padding:30px;
+text-align: center;
+transition: transform 0.3s ease;
+}
+.box:hover{
+transform: translateY(-10px) scale(1.2);
+}
